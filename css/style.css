@@ -1,0 +1,51 @@
+:root{
+    --color1: #1E34FB;
+    --color2: #F322F8;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+.navbar-logo {
+    width: 15%;
+    height: 15%;
+    background-color: #d3d3d3;
+    margin: 3%;
+    padding: auto;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+.link-logo {
+    width: 20%;
+}
+.name {
+    text-align: left;
+    float: right;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+header, footer, section {
+    padding: 100px 0;
+}
+header {
+    padding: 50px 0 100px 0;
+}
+header, footer {
+    background: url(../images/monitors-pattern.png), linear-gradient(to bottom,  var(--color1),var(--color2));
+    background-size: contain;
+}
+.first-h1 {
+    margin-top: 10%;
+}
+.btn-itd {
+    display: block;
+    font-family: 'Franklin Gothic Medium';
+    max-width: 300px;
+    margin: 70px auto 30px;
+    color: peachpuff;
+    background-color: rgba(50, 187, 61, 0.7);
+}
+.btn-itd:hover {
+    color: peachpuff;
+    background-color: rgba(106, 66, 252, 0.7);
+}
